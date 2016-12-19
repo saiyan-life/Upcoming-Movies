@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+         android:background="@drawable/movies"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:src="@drawable/movie_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/app_name"
+           android:textColor="#fff"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+        
+<!--          android:textColor="@color/title_app" -->
+
+        <ProgressBar
+            android:id="@+id/prgLoading"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="230dp"
+            android:layout_height="13dp"
+            android:gravity="center"
+            android:max="100"
+            />
+<!--          android:progressDrawable="@drawable/loading" -->
+        
+    </LinearLayout>
